@@ -29,7 +29,7 @@ const About = () => {
       </div>
 
       <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        The MERN stack is a powerful technology combo for building fast and efficient web apps, using MongoDB for data storage,
+        The fERN stack is a powerful technology combo for building fast and efficient web apps, using MongoDB for data storage,
         Express.js for server-side processing, React.js for UI building, and Node.js for server-side runtime management.
         This enables businesses to create scalable, responsive web apps that handle complex data and interactions, improving user experience and satisfaction.
       </p>
