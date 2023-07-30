@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ title, icon }) => {
   return (
-    <div className="xs:w-[250px] w-full">
+    <div className="flex flex-col xs:w-full sm:w-1/2 lg:w-1/3 px-4">
       <div className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
         <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
           <img src={icon} alt="web-development" className="w-16 h-16 object-contain" />
@@ -18,20 +18,22 @@ const ServiceCard = ({ title, icon }) => {
 };
 
 const About = () => {
+  const description = "Copernicus Technologies is a leading provider of innovative technology solutions. Our services include:";
+  const listItems = ["Web Development", "App Development", "AI & Machine Learning", "Cloud Services", "Data Analysis", "Cybersecurity"];
+
   return (
     <>
-      <div>
+      <div className="text-center mx-auto px-4 sm:px-6 lg:px-8 my-12">
 
-      <h3 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px]">
-  <span style={{ fontWeight: "bold", color: "#00ff00" }}>&ensp;COPER</span>
-  nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nology
-</h3>
+        <h3 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
+          <span style={{ fontWeight: "bold", color: "#00ff00" }}>COPER</span>
+          nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nologies
+        </h3>
 
-
-      
 
       </div>
-      <div className="mt-20 flex flex-wrap gap-10" style={{ marginBottom: "-45px" }}>
+
+      <div className="mt-20 flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} {...service} />
         ))}

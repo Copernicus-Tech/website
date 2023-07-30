@@ -57,13 +57,21 @@ const services = [
     icon: backend,
   },
   {
+    title: "Mobile-first Approach",
+    icon: creator,
+  },
+  {
+    title: "Scalable Performance",
+    icon: mobile,
+  },
+  {
     title: "Strategic Cost Savings",
     icon: backend,
   },
   {
     title: "Mobile-first Approach",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
