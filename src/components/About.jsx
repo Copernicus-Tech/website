@@ -24,7 +24,7 @@ const About = () => {
 
       <h3 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px]">
   <span style={{ fontWeight: "bold", color: "#00ff00" }}>&ensp;COPER</span>
-  nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nology Solutions
+  nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nology
 </h3>
 
 

@@ -43,13 +43,13 @@ const Navbar = () => {
           }}
         >
           <img src={web} alt="menu" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Copernicus &nbsp;
             <span className="sm:block hidden">Technologies</span>
           </p>
         </Link>
-  
-        <ul className="list-none hidden sm:flex flex-row gap-10 ml-auto"> {/* added margin-left (ml) auto here */}
+
+        <ul className="list-none hidden sm:flex flex-row gap-10 flex-1 justify-center"> {/* Updated styles for centering */}
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-  
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -70,7 +70,7 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
-  
+
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -97,7 +97,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-  
 };
 
 export default Navbar;
