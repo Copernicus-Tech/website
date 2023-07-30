@@ -75,12 +75,20 @@ const services = [
 ];
 
 const technologies = [
+{
+    name: "AAD",
+    icon: javascript,
+  },
   {
     name: "HTML 5",
     icon: html,
   },
   {
     name: "WIX",
+    icon: wix,
+  },
+  {
+    name: "aae",
     icon: wix,
   },
   {
