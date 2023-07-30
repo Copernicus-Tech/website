@@ -47,10 +47,7 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Cool Beans Bro",
-    icon: web,
-  },
+
   {
     title: "Scalable Performance",
     icon: mobile,
