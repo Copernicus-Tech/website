@@ -25,10 +25,9 @@ const About = () => {
     <>
       <div className="text-center mx-auto px-4 sm:px-6 lg:px-8 my-12">
 
-        <h3 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
-          <span style={{ fontWeight: "bold", color: "#00ff00" }}>COPER</span>
-          nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nologies
-        </h3>
+        <h4 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
+        <span style={{ fontWeight: "bold", color: "#00ff00" }}>time</span> is limited, don't waste it.
+        </h4>
 
 
       </div>

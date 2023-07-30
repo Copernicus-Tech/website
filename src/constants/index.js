@@ -49,23 +49,23 @@ export const navLinks = [
 const services = [
 
   {
-    title: "Scalable Performance",
+    title: "Mobile-first Approach",
     icon: mobile,
   },
   {
-    title: "Strategic Cost Savings",
+    title: "Efficent & Affordable",
     icon: backend,
   },
   {
-    title: "Mobile-first Approach",
+    title: "Firebase Authentication",
     icon: creator,
   },
   {
-    title: "Scalable Performance",
+    title: "Google Cloud Servers",
     icon: mobile,
   },
   {
-    title: "Strategic Cost Savings",
+    title: "GPT-4 Powered",
     icon: backend,
   },
   {
@@ -78,6 +78,10 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
+  },
+  {
+    name: "WIX",
+    icon: wix,
   },
   {
     name: "CSS 3",
@@ -127,6 +131,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  
 ];
 
 const experiences = [

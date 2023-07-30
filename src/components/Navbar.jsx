@@ -44,12 +44,14 @@ const Navbar = () => {
         >
           <img src={web} alt="menu" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Copernicus &nbsp;
-            <span className="sm:block hidden">Technologies</span>
+          <span style={{ fontWeight: "bold", color: "#00ff00" }}>COPER</span>
+          nicus &nbsp;
+            <span className="sm:block hidden"><span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nologies</span>
           </p>
         </Link>
+        <p className="text-white text-[18px] font-bold">Your </p>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10 flex-1 justify-center"> {/* Updated styles for centering */}
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
