@@ -48,8 +48,8 @@ const Navbar = () => {
             <span className="sm:block hidden">Technologies</span>
           </p>
         </Link>
-
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+  
+        <ul className="list-none hidden sm:flex flex-row gap-10 ml-auto"> {/* added margin-left (ml) auto here */}
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
+  
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -70,7 +70,7 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
-
+  
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -97,6 +97,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
+  
 };
 
 export default Navbar;

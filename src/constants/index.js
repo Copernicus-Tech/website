@@ -57,6 +57,10 @@ const services = [
     icon: backend,
   },
   {
+    title: "Strategic Cost Savings",
+    icon: backend,
+  },
+  {
     title: "Mobile-first Approach",
     icon: creator,
   },

@@ -21,19 +21,16 @@ const About = () => {
   return (
     <>
       <div>
-        <p className={styles.sectionSubText}>Systematic Overview</p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          <span style={{ fontWeight: "bold", color: "#00ff00" }}>MERN</span>
-          ingful development
-        </h2>
+
+      <h3 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px]">
+  <span style={{ fontWeight: "bold", color: "#00ff00" }}>&ensp;COPER</span>
+  nicus <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nology Solutions
+</h3>
+
+
+      
+
       </div>
-
-      <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        The fERN stack is a powerful technology combo for building fast and efficient web apps, using MongoDB for data storage,
-        Express.js for server-side processing, React.js for UI building, and Node.js for server-side runtime management.
-        This enables businesses to create scalable, responsive web apps that handle complex data and interactions, improving user experience and satisfaction.
-      </p>
-
       <div className="mt-20 flex flex-wrap gap-10" style={{ marginBottom: "-45px" }}>
         {services.map((service, index) => (
           <ServiceCard key={service.title} {...service} />
