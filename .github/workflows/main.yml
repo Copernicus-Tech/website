@@ -1,0 +1,20 @@
+name: Deploy to Firebase Hosting on push
+'on':
+  push:
+    branches:
+      - main  # Trigger the action on push events to your main branch
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2  # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+
+    - run: npm ci  # If you're using npm and have a package-lock.json
+    - run: npm run build  # If your project needs to be built
+
+    - uses: w9jds/firebase-action@v1.5.0  # This action sets up Firebase and executes the specified command
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}  # Set the FIREBASE_TOKEN in the repo's secret settings
