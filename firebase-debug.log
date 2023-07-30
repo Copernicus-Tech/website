@@ -1,0 +1,110 @@
+[debug] [2023-07-30T03:35:49.903Z] ----------------------------------------------------------------------
+[debug] [2023-07-30T03:35:49.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fergg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-30T03:35:49.905Z] CLI Version:   12.4.6
+[debug] [2023-07-30T03:35:49.905Z] Platform:      win32
+[debug] [2023-07-30T03:35:49.905Z] Node Version:  v18.15.0
+[debug] [2023-07-30T03:35:49.906Z] Time:          Sat Jul 29 2023 22:35:49 GMT-0500 (Eastern Standard Time)
+[debug] [2023-07-30T03:35:49.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-30T03:35:49.911Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-30T03:35:49.912Z] > authorizing via signed-in user (info@copertech.org)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\fergg\OneDrive\Desktop\Public-Portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-07-30T03:36:42.499Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-07-30T03:36:42.499Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"public-portfolio","name":"public-portfolio"}
+[debug] [2023-07-30T03:36:42.843Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-07-30T03:36:42.844Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-07-30T03:36:42.909Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\fergg\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\fergg\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID public-portfolio. Please try again with a unique project ID.
+[debug] [2023-07-30T03:36:58.909Z] ----------------------------------------------------------------------
+[debug] [2023-07-30T03:36:58.911Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fergg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-30T03:36:58.911Z] CLI Version:   12.4.6
+[debug] [2023-07-30T03:36:58.911Z] Platform:      win32
+[debug] [2023-07-30T03:36:58.911Z] Node Version:  v18.15.0
+[debug] [2023-07-30T03:36:58.912Z] Time:          Sat Jul 29 2023 22:36:58 GMT-0500 (Eastern Standard Time)
+[debug] [2023-07-30T03:36:58.912Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-30T03:36:58.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-30T03:36:58.918Z] > authorizing via signed-in user (info@copertech.org)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\fergg\OneDrive\Desktop\Public-Portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-30T03:37:07.371Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-30T03:37:08.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-07-30T03:37:08.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project public-portfolio-4e111 (Public-Portfolio) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-07-30T03:38:38.816Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-07-30T03:38:38.878Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-07-30T03:38:38.879Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.1.0","browserURL":"https://www.gstatic.com/firebasejs/10.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.1.0/firebase.tgz"},"live":{"version":"10.1","browserURL":"https://www.gstatic.com/firebasejs/live/10.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.1.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.1.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.memory.js"}}
+[info] +  Wrote kodiakcoding/Public-Portfolio/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\fergg\OneDrive\Desktop\Public-Portfolio 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=786779673&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-07-30T03:39:19.921Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-07-30T03:39:19.921Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-07-30T03:39:20.108Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-07-30T03:39:20.109Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-07-30T03:39:20.119Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-07-30T03:39:20.298Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-07-30T03:39:20.298Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"KodiakCoding","id":91396305,"node_id":"MDQ6VXNlcjkxMzk2MzA1","avatar_url":"https://avatars.githubusercontent.com/u/91396305?v=4","gravatar_id":"","url":"https://api.github.com/users/KodiakCoding","html_url":"https://github.com/KodiakCoding","followers_url":"https://api.github.com/users/KodiakCoding/followers","following_url":"https://api.github.com/users/KodiakCoding/following{/other_user}","gists_url":"https://api.github.com/users/KodiakCoding/gists{/gist_id}","starred_url":"https://api.github.com/users/KodiakCoding/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/KodiakCoding/subscriptions","organizations_url":"https://api.github.com/users/KodiakCoding/orgs","repos_url":"https://api.github.com/users/KodiakCoding/repos","events_url":"https://api.github.com/users/KodiakCoding/events{/privacy}","received_events_url":"https://api.github.com/users/KodiakCoding/received_events","type":"User","site_admin":false,"name":"K0D14K","company":null,"blog":"Kodiakcoding.com","location":"New York","email":null,"hireable":null,"bio":"👋 Hi there! I'm Kodiak – a passionate web developer 💻 creating exceptional digital experiences. Let's innovate together! 🚀😊","twitter_username":null,"public_repos":3,"public_gists":0,"followers":0,"following":1,"created_at":"2021-09-25T23:40:42Z","updated_at":"2023-07-30T03:13:02Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":29755,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as KodiakCoding 
+[info] 
+[debug] [2023-07-30T03:39:37.152Z] >>> [apiv2][query] GET https://api.github.com/repos/kodiakcoding/Public-Portfolio/actions/secrets/public-key type=owner
+[debug] [2023-07-30T03:39:37.265Z] <<< [apiv2][status] GET https://api.github.com/repos/kodiakcoding/Public-Portfolio/actions/secrets/public-key 404
+[debug] [2023-07-30T03:39:37.265Z] <<< [apiv2][body] GET https://api.github.com/repos/kodiakcoding/Public-Portfolio/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
