@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -14,7 +14,7 @@ const ServiceCard = ({ index, title, icon }) => {
     setIsAnimating(true);
     controls.start({
       scale: 1.2,
-      transition: { duration: 0.5 },
+      transition: { duration: 0 }, // Set duration to 0 to remove delay
     });
   };
 
@@ -22,14 +22,13 @@ const ServiceCard = ({ index, title, icon }) => {
     setIsAnimating(false);
     controls.start({
       scale: 1,
-      transition: { duration: 0.5 },
+      transition: { duration: 0 }, // Set duration to 0 to remove delay
     });
   };
 
   return (
     <div className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
         animate={controls}
         onTapStart={animateCard}
@@ -68,7 +67,7 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={textVariant(0)} // Set delay to 0 to remove the fade-in effect
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         The MERN stack is a powerful technology combo for building fast and efficient web apps, using MongoDB for data storage,
