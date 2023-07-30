@@ -46,10 +46,10 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           <span style={{ fontWeight: "bold", color: "#00ff00" }}>COPER</span>
           nicus &nbsp;
-            <span className="sm:block hidden"><span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span>nologies</span>
+<span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span><span className="sm:block hidden">nologies</span>
           </p>
         </Link>
-        <p className="text-white text-[18px] font-bold">Your </p>
+        <span className="sm:block hidden"><p className="text-white text-[18px] font-bold">CoperTech.io</p></span>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
