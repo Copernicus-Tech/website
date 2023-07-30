@@ -122,80 +122,116 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Founder & Developer",
-    company_name: "KodiakCoding.com",
+    title: "Michael Scott",
+    company_name: "Chief Executive Officer",
     icon: git,
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Freelance technology consultant specializing in MERN stack, Three.js, DocuSign, and custom Google Apps Script plugins.",
-      "Collaborated with multiple clients to develop tailored data models and strategies.",
-      "Ensured accurate data modeling for effective decision-making and streamlined processes.",
-      "Optimized development projects through code reviews and valuable feedback.",
-      "Built robust and scalable applications using MERN stack technologies.",
-      "Created immersive 3D visualizations with Three.js.",
-      "Integrated DocuSign for secure document signing processes.",
-      "Developed custom Google Apps Script plugins for task automation and enhanced productivity.",
+      "Steers strategic decision-making process, aligning company's objectives with market opportunities.",
+      "Cultivates partnerships and alliances to expand business reach and augment profitability.",
+      "Serves as the public face of the company, enhancing brand visibility and trust.",
+      "Promotes a culture of innovation and continuous learning within the organization.",
+      "Ensures regulatory compliance and maintains strong relationships with stakeholders."
     ]
-    
   },
   {
-    title: "Technology Consultant",
-    company_name: "Draper Asset Mangement",
-    icon: html,
+    title: "Jim Halpert",
+    company_name: "Chief Security Officer",
+    icon: git,
     iconBg: "#383E56",
-    date: "March 2020 - Present",
+    date: "Apr 2022 - Present",
     points: [
-      "Collaborated with team members, including Portfolio Managers and research interns, to develop data-rich models and strategies.",
-      "Participated in code reviews and provided valuable feedback to enhance the quality and efficiency of the development process.",
-      "Utilized MERN (MongoDB, Express.js, React.js, Node.js) technologies to build robust and scalable applications for data-driven solutions.",
-    ],
-    
+      "Defines and implements cybersecurity strategies to protect organizational data and IT infrastructure.",
+      "Stays abreast of evolving security threats and mitigates risks with appropriate measures.",
+      "Advocates for security-first culture, educating employees about potential cyber threats.",
+      "Leads incident response efforts, minimizing impacts on business continuity.",
+      "Collaborates with IT teams to integrate security measures in technology development."
+    ]
   },
   {
-    title: "Receving Team-Lead",
-    company_name: "Whole Foods Market",
-    icon: wholefoods,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Feb 2022",
-    points: [
-      "Created VBA software to automate vendor communication regarding late invoices, resulting in improved efficiency and timely resolution of payment discrepancies. The program was successfully implemented at the regional level, further streamlining the invoice management process.",
-      "Managed the reception and distribution of millions of dollars worth of inventory annually at Whole Foods Market/Amazon, ensuring accuracy and time efficiency.",
-  "Maintained high standards in safety, cleanliness, and efficiency in the receiving team, contributing to the store's top percentile ranking across the region and country.",
-  "Verified and preserved the integrity of purchase orders via inventory management programs, demonstrating keen oversight and attention to detail.",
-  "Built and maintained professional relationships with vendors, effectively managing communication to enhance productivity, mitigate issues, and streamline the delivery process.",
-    ],
-    
-  },
-  {
-    title: "Wix Developer",
-    company_name: "Freelancer",
-    icon: wix,
+    title: "Dwight Schrute",
+    company_name: "Chief Technology Officer",
+    icon: git,
     iconBg: "#383E56",
-    date: "Sep 2016 - Dec 2017",
+    date: "Apr 2022 - Present",
     points: [
-      "Developed and customized Wix websites for clients, delivering high-quality web solutions tailored to their specific needs and requirements.",
-      "Collaborated closely with clients to understand their business objectives and translate them into visually appealing and functional website designs.",
-      "Implemented SEO best practices to optimize website visibility and improve search engine rankings, driving organic traffic and increasing online presence.",
-      "Provided ongoing website maintenance and updates, ensuring seamless functionality and addressing any issues or bugs that arose.",
-      "Managed multiple client projects simultaneously, effectively prioritizing tasks and meeting project deadlines within budget constraints.",
-    ],
-    
+      "Oversees the development of scalable technology solutions using popular tech stacks like Java, Python, React, Node.js, and Firebase.",
+      "Drives technology strategy that aligns with business objectives and enables growth.",
+      "Adopts emerging technologies, fostering a culture of innovation and excellence.",
+      "Leads the architectural decisions, ensuring systems scalability and robustness.",
+      "Manages tech vendor relationships, ensuring quality of products and services."
+    ]
   },
   {
-    title: "Junior SWE",
-    company_name: "iCitizen.com",
-    icon: ic,
-    iconBg: "#E6DEDD",
-    date: "Aug 2015 - Sep 2016",
+    title: "Darryl Philbin",
+    company_name: "Chief Sales Officer",
+    icon: git,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
     points: [
-      "Contributed to the development of the iCitizen mobile application aimed at transforming civic communication, fostering community connection, and promoting meaningful change.",
-      "Analyzed and reviewed the US Census and State Voter Records for information critical to the application's functionality and relevance.",
-      "Performed data cleaning and conversion, transforming TSV and CSV datasets into JSON format.",
-      "Managed the creation and maintenance of large MongoDB databases, ensuring their integrity.",
-      "Handled sensitive and personal records of US citizens, ensuring privacy and data protection."
-    ],
-    
+      "Directs sales strategies to drive revenue growth and market share expansion.",
+      "Builds and leads high-performing sales teams focused on customer acquisition and retention.",
+      "Monitors market trends to identify new opportunities and potential challenges.",
+      "Ensures alignment of sales strategies with customer needs and market trends.",
+      "Nurtures key client relationships, bolstering customer loyalty and satisfaction."
+    ]
+  },
+  {
+    title: "Oscar Martinez",
+    company_name: "Chief Compliance Officer",
+    icon: git,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
+    points: [
+      "Develops and enforces compliance policies to ensure adherence to industry standards and regulations.",
+      "Leads internal audits and investigations, addressing compliance issues proactively.",
+      "Serves as a liaison with regulatory bodies, ensuring transparency in company operations.",
+      "Trains employees on regulatory requirements, minimizing risk of non-compliance.",
+      "Stays current with changes in laws and regulations applicable to the company."
+    ]
+  },
+  {
+    title: "Kevin Malone",
+    company_name: "Chief Financial Officer",
+    icon: git,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
+    points: [
+      "Oversees financial planning, risk management, and financial reporting.",
+      "Monitors cash flow, ensuring organization's financial stability and growth.",
+      "Conducts financial analysis, identifying strengths and weaknesses for corrective actions.",
+      "Ensures adherence to financial regulations and standards.",
+      "Plays a strategic role in company's growth, aligning financial management with business plans."
+    ]
+  },
+  {
+    title: "Ryan Howard",
+    company_name: "Developer",
+    icon: git,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
+    points: [
+      "Contributes to system design and feature enhancements, improving product performance.",
+      "Quickly adapts to new programming languages and technologies, driving innovation.",
+      "Collaborates with cross-functional teams to achieve project milestones.",
+      "Participates in code reviews, ensuring adherence to best practices.",
+      "Troubleshoots software issues, improving system reliability and user experience."
+    ]
+  },
+  {
+    title: "Toby Flenderson",
+    company_name: "Developer",
+    icon: git,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Present",
+    points: [
+      "Assists in the development of company's technology systems, meeting functional requirements.",
+      "Collaborates with the CTO and other team members to deliver high-quality code.",
+      "Stays abreast of industry trends, bringing innovative solutions to the table.",
+      "Adheres to established coding standards, ensuring maintainability of the codebase.",
+      "Participates in testing phases, identifying and fixing bugs."
+    ]
   },
 ];
 
