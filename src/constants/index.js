@@ -75,20 +75,13 @@ const services = [
 ];
 
 const technologies = [
-{
-    name: "AAD",
-    icon: javascript,
-  },
+
   {
     name: "HTML 5",
     icon: html,
   },
   {
     name: "WIX",
-    icon: wix,
-  },
-  {
-    name: "aae",
     icon: wix,
   },
   {
@@ -258,18 +251,10 @@ const experiences = [
 ];
 
 const testimonials = [
+
   {
     testimonial:
-      "Please reach out below to hear our success stories and for references!",
-    name: "Jerry",
-    designation: "Founder",
-    company: "KodiakCoding.com",
-    image: mongodb,
-  },
-  /*
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Dwight does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -277,13 +262,22 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Jim optimized our monthly SASS expenses, our companies opperating margin increased over 30%!  ",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },  
+  {
+
+    testimonial:
+      "Darryl's customer service is truly top-notch, making every interaction a pleasant one.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  */
+  
 ];
 
 const projects = [

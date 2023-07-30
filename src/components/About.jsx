@@ -25,14 +25,13 @@ const About = () => {
     <>
       <div className="text-center mx-auto px-4 sm:px-6 lg:px-8 my-12">
 
-        <h4 className="text-white font-black md:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
-        <span style={{ fontWeight: "bold", color: "#00ff00" }}>time</span> is limited, don't waste it.
-        </h4>
-
+    <p className="text-white font-black md:text-[4
+    30px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
+          💻📱🌐Desktop  |  Mobile  |  Web🌐📱💻<br/><span style={{ fontWeight: "bold", color: "#00ff00" }}>Software Development</span> <br/><br/>
+        </p>
 
       </div>
-
-      <div className="mt-20 flex flex-wrap justify-center gap-10">
+      <div className="mt-10 flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} {...service} />
         ))}

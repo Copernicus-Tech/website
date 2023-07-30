@@ -49,7 +49,7 @@ const Navbar = () => {
 <span style={{ fontWeight: "bold", color: "#00ff00" }}>TECH</span><span className="sm:block hidden">nologies</span>
           </p>
         </Link>
-        <span className="sm:block hidden"><p className="text-white text-[18px] font-bold">CoperTech.io</p></span>
+        <span className="sm:block hidden"><p className="text-white text-[18px] font-bold"><span style={{ fontWeight: "bold", color: "#00ff00" }}>time</span> is limited, don't waste it.</p></span>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
