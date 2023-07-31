@@ -138,30 +138,30 @@ const technologies = [
 const experiences = [
   {
     title: "Michael Scott",
-    company_name: "Chief Executive Officer",
+    company_name: "Chief Relationship Officer",
     icon: git,
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Steers strategic decision-making process, aligning company's objectives with market opportunities.",
-      "Cultivates partnerships and alliances to expand business reach and augment profitability.",
-      "Serves as the public face of the company, enhancing brand visibility and trust.",
-      "Promotes a culture of innovation and continuous learning within the organization.",
+      "Leads strategic decision-making process, aligning company objectives with market opportunities.",
+      "Cultivates partnerships and alliances to expand business reach and foster strong client relationships.",
+      "Serves as the public face of the company, enhancing brand visibility and trust among clients.",
+      "Promotes a culture of innovation and continuous learning, fostering client-centric solutions.",
       "Ensures regulatory compliance and maintains strong relationships with stakeholders."
     ]
   },
   {
     title: "Jim Halpert",
-    company_name: "Chief Security Officer",
+    company_name: "Chief Information Officer",
     icon: git,
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Defines and implements cybersecurity strategies to protect organizational data and IT infrastructure.",
-      "Stays abreast of evolving security threats and mitigates risks with appropriate measures.",
-      "Advocates for security-first culture, educating employees about potential cyber threats.",
-      "Leads incident response efforts, minimizing impacts on business continuity.",
-      "Collaborates with IT teams to integrate security measures in technology development."
+      "Defines and implements cutting-edge AI-driven strategies to fortify cybersecurity and protect organizational data.",
+      "Demonstrates expertise in IT infrastructure management, optimizing performance and scalability.",
+      "Advocates for a security-first culture, educating employees about potential cyber threats.",
+      "Leads incident response efforts, ensuring business continuity and rapid recovery.",
+      "Expertise in SaaS products like Salesforce and QuickBooks, enhancing business efficiency."
     ]
   },
   {
@@ -171,11 +171,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Oversees the development of scalable technology solutions using popular tech stacks like Java, Python, React, Node.js, and Firebase.",
-      "Drives technology strategy that aligns with business objectives and enables growth.",
-      "Adopts emerging technologies, fostering a culture of innovation and excellence.",
-      "Leads the architectural decisions, ensuring systems scalability and robustness.",
-      "Manages tech vendor relationships, ensuring quality of products and services."
+      "Oversees the rapid development of scalable technology solutions using Google, Firebase, JavaScript, and various tech stacks.",
+      "Drives technology strategy that aligns with business objectives and propels organizational growth.",
+      "Quickly adapts to emerging technologies, fostering a culture of innovation and excellence.",
+      "Leads architectural decisions, ensuring systems' scalability, robustness, and optimal performance.",
+      "Manages tech vendor relationships, ensuring the highest quality of products and services."
     ]
   },
   {
@@ -185,11 +185,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Directs sales strategies to drive revenue growth and market share expansion.",
+      "Directs sales strategies to drive revenue growth and expand market share.",
       "Builds and leads high-performing sales teams focused on customer acquisition and retention.",
       "Monitors market trends to identify new opportunities and potential challenges.",
       "Ensures alignment of sales strategies with customer needs and market trends.",
-      "Nurtures key client relationships, bolstering customer loyalty and satisfaction."
+      "Nurtures key client relationships, fostering customer loyalty and satisfaction."
     ]
   },
   {
@@ -202,7 +202,7 @@ const experiences = [
       "Develops and enforces compliance policies to ensure adherence to industry standards and regulations.",
       "Leads internal audits and investigations, addressing compliance issues proactively.",
       "Serves as a liaison with regulatory bodies, ensuring transparency in company operations.",
-      "Trains employees on regulatory requirements, minimizing risk of non-compliance.",
+      "Trains employees on regulatory requirements, minimizing the risk of non-compliance.",
       "Stays current with changes in laws and regulations applicable to the company."
     ]
   },
@@ -214,10 +214,10 @@ const experiences = [
     date: "Apr 2022 - Present",
     points: [
       "Oversees financial planning, risk management, and financial reporting.",
-      "Monitors cash flow, ensuring organization's financial stability and growth.",
+      "Monitors cash flow, ensuring the organization's financial stability and growth.",
       "Conducts financial analysis, identifying strengths and weaknesses for corrective actions.",
       "Ensures adherence to financial regulations and standards.",
-      "Plays a strategic role in company's growth, aligning financial management with business plans."
+      "Plays a strategic role in the company's growth, aligning financial management with business plans."
     ]
   },
   {
@@ -231,7 +231,7 @@ const experiences = [
       "Quickly adapts to new programming languages and technologies, driving innovation.",
       "Collaborates with cross-functional teams to achieve project milestones.",
       "Participates in code reviews, ensuring adherence to best practices.",
-      "Troubleshoots software issues, improving system reliability and user experience."
+      "Troubleshoots software issues, improving system reliability and enhancing user experience."
     ]
   },
   {
@@ -241,14 +241,15 @@ const experiences = [
     iconBg: "#383E56",
     date: "Apr 2022 - Present",
     points: [
-      "Assists in the development of company's technology systems, meeting functional requirements.",
+      "Assists in the development of the company's technology systems, meeting functional requirements.",
       "Collaborates with the CTO and other team members to deliver high-quality code.",
       "Stays abreast of industry trends, bringing innovative solutions to the table.",
-      "Adheres to established coding standards, ensuring maintainability of the codebase.",
+      "Adheres to established coding standards, ensuring the maintainability of the codebase.",
       "Participates in testing phases, identifying and fixing bugs."
     ]
   },
 ];
+
 
 const testimonials = [
 
