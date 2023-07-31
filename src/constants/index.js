@@ -47,32 +47,32 @@ export const navLinks = [
 ];
 
 const services = [
-
   {
-    title: "Mobile-first Approach",
+    title: "Mobile-First Design Emphasis",
     icon: mobile,
   },
   {
-    title: "Efficent & Affordable",
+    title: "GPT-4: Leveraging AI to Engineer Solutions",
     icon: backend,
   },
   {
-    title: "Firebase Authentication",
+    title: "Secure Authentication with GOOG's Firebase ",
     icon: creator,
   },
   {
-    title: "Google Cloud Servers",
+    title: "API Merging: TWLO, DOCU, ADBE",
     icon: mobile,
   },
   {
-    title: "GPT-4 Powered",
+    title: "AI-Driven Revenue Optimization",
     icon: backend,
   },
   {
-    title: "Mobile-first Approach",
+    title: "OCR Enhanced Mobile Data Capture",
     icon: creator,
-  }
+  },
 ];
+
 
 const technologies = [
 
