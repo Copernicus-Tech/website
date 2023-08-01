@@ -45,8 +45,8 @@ const Navbar = () => {
           <img src={web} alt="menu" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           <span style={{ fontWeight: "bold", color: "#00ff00" }}>Theia</span>
-          nicus &nbsp;
-<span style={{ fontWeight: "bold", color: "#00ff00" }}>Vision</span><span className="sm:block hidden">Dev Studio</span>
+          Vision &nbsp;
+<span style={{ fontWeight: "bold", color: "#00ff00" }}></span><span className="sm:block hidden">Studios</span>
           </p>
         </Link>
         <span className="sm:block hidden"><p className="text-white text-[18px] font-bold"><span style={{ fontWeight: "bold", color: "#00ff00" }}>time</span> is limited, don't waste it.</p></span>

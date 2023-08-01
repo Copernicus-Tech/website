@@ -27,7 +27,7 @@ const About = () => {
 
     <p className="text-white font-black md:text-[4
     30px] sm:text-[40px] xs:text-[30px] text-[20px] mb-4">
-          Desktop💻      -      Web🌐      -      Mobile📱  <br/><span style={{ fontWeight: "bold", color: "#00ff00" }}>Software Development</span> <br/><br/>
+          Desk💻      -      Web🌐      -      Mobile📱  <br/><span style={{ fontWeight: "bold", color: "#00ff00" }}>Software Development</span> <br/><br/>
         </p>
 
       </div>
